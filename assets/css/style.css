@@ -1,0 +1,59 @@
+footer {
+    clear: both;
+    text-align: center;
+}
+
+header {
+    width: 960px;
+}
+
+#myPicture {
+    float: left;
+    width: 30%;
+    padding: 40px;
+}
+
+#content {
+    margin-left: 20px;
+    padding: 50px;
+    text-align: left;
+}
+
+#spacing {
+    margin-left: 10px;
+}
+
+#selector
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    
+    }
+
+#selector
+    li {
+        float: right;
+        width: 100px;
+        border: 1px solid #555;
+        text-align: center;
+    
+}
+
+#selector
+     a{
+        display: block;
+        width: 100px;
+        color: #000;
+}
+
+#selector
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+#name {
+    float: left;
+
+}    

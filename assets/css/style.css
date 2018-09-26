@@ -39,7 +39,7 @@ h2, header, footer, #name, #title {
 #myPicture {
     float: left;
     width: 30%;
-    padding: 40px;
+    padding: 30px;
 }
 
 #content1 {
@@ -99,6 +99,7 @@ h2, header, footer, #name, #title {
 #content{
     border: 0px solid #777777;
     background-color: #777777;
+    
     clear: both;
     height: auto;
     width: auto;
@@ -112,4 +113,83 @@ h2, header, footer, #name, #title {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+}
+
+#content2 {
+    text-align: left;
+    background-color: #ffffff;
+    width: 960px;
+    overflow: auto;
+    margin: auto;
+}
+
+.nameformat {
+    margin: 30px;
+    border: 1px solid #666666;
+    width: 100px;
+    text-align: left;
+}
+
+#name1{
+    border: 1px solid #666666;
+    width: 800px;
+    height: 50px;
+    margin: 30px;
+}
+
+#email {
+    border: 1px solid #666666;
+    width: 800px;
+    height: 50px;
+    margin: 30px;
+}
+
+#message {
+    border: 1px solid #666666;
+    width: 800px;
+    height: 200px;
+    overflow: auto;
+    margin: 30px;
+}
+
+#button {
+    border: 1px solid #4aaaa5;
+    width: 100px;
+    background-color: #4aaaa5;
+    margin: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#content3{
+    text-align: left;
+    background-color: #ffffff;
+    width: 960px;
+    overflow: auto;
+    margin: auto;
+}
+
+#portfolio_images {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+.images {
+    width: 400px;
+    
+}
+    
+
+.image_format {
+    position: absolute;
+    bottom: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: 0px solid #4aaaa5;
+    width: 400px;
+    text-align: center;
 }

@@ -1,10 +1,39 @@
 footer {
     clear: both;
     text-align: center;
+    padding-top: 10px;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 header {
-    width: 960px;
+    border: 5px #4aaaa5;
+    color: #ffffff;
+    width: 20%;
+    background-color: #4aaaa5;
+}
+
+h2, header, footer, #name, #title {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+}
+
+#selector, #content, #content1{
+    font-family: "Arial", "Helvetica", Helvetica, sans-serif;
+    color: #777777;
+}
+
+#name{
+    float: left;
+    border: 5px #4aaaa5;
+    color: white;
+    width: 20%;
+    background-color: #4aaaa5;
+    padding: 30px;
+    align-content: center;
 }
 
 #myPicture {
@@ -13,10 +42,15 @@ header {
     padding: 40px;
 }
 
-#content {
-    margin-left: 20px;
-    padding: 50px;
+#content1 {
     text-align: left;
+    background-color: #ffffff;
+    width: 960px;
+    overflow: auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
 #spacing {
@@ -27,7 +61,7 @@ header {
     ul{
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 30px;
     
     }
 
@@ -35,13 +69,13 @@ header {
     li {
         float: right;
         width: 100px;
-        border: 1px solid #555;
-        text-align: center;
+        border: 0px solid #555;
+        text-align: right;
     
 }
 
 #selector
-     a{
+     a {
         display: block;
         width: 100px;
         color: #000;
@@ -53,7 +87,29 @@ header {
         color: white;
     }
 
-#name {
-    float: left;
+#title {
+    clear: both;
+    color: #4aaaa5;
+    padding: 30px;
+    align-content: center;
+    border-bottom: 5px solid #777777;
 
 }    
+
+#content{
+    border: 0px solid #777777;
+    background-color: #777777;
+    clear: both;
+    height: auto;
+    width: auto;
+
+}
+#headings {
+    width: 960px;
+    text-align: centre;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}

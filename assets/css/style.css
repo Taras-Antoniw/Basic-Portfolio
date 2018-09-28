@@ -102,7 +102,7 @@ h2, header, footer, #name, #title {
     
     clear: both;
     height: auto;
-    width: auto;
+    width: 960px;
 
 }
 #headings {
@@ -165,31 +165,45 @@ h2, header, footer, #name, #title {
 #content3{
     text-align: left;
     background-color: #ffffff;
-    width: 960px;
+    width: 100%;
     overflow: auto;
     margin: auto;
+    float: left;
 }
 
 #portfolio_images {
+    padding:0px;
+    margin: 30px;
     float: left;
-    padding: 0px;
-    margin: 0px;
-    
     
 }
 
-.images {
+.together {
+    position: relative;
     width: 400px;
+    float: left;
+
+
+}
+.images {
+    border: 1px solid #ee4747;
+    width: 400px;
+
+
+
+  
+    
     
 }
     
 
 .image_format {
-    position: absolute;
+    position: relative;
     bottom: 50px;
+    right: 0px;
     background-color: #4aaaa5;
     color: #ffffff;
     border: 0px solid #4aaaa5;
-    width: 400px;
+    width: 100%;
     text-align: center;
 }

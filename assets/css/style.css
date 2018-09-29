@@ -14,9 +14,9 @@ footer {
 header {
     
     width: 100%;
-    height: 95px;
+    height: 90px;
     background-color: #ffffff;
-    border-bottom: 5px solid #666666;
+    border-bottom: 2px solid #666666;
 
 }
 
@@ -24,12 +24,13 @@ h2, header, footer, #name, #title {
     font-family: "Georgia", "Times", "Times New Roman", serif;
 }
 
-#selector, #content, #content1{
+#selector, #content2, #content1, #content3 {
     font-family: "Arial", "Helvetica", Helvetica, sans-serif;
     color: #777777;
 }
 
 p {
+    margin-top: 10px;
     margin-left: 30px;
 }
 
@@ -62,10 +63,6 @@ p {
     border: 1px solid #dddddd;
 }
 
-#spacing {
-    padding-left: 10px;
-    list-style-position: inside;
-}
 #selector{
     float: right;
     background-color: #ffffff;
@@ -82,16 +79,16 @@ p {
 #selector
     li {
         float: right;
-        width: 100px;
+        width: 80px;
         border: 0px solid #555;
         text-align: right;
-        padding: 20px;
+        padding: 30px;
 }
 
 #selector
-     a {
+     li.a {
         display: block;
-        width: 100px;
+        width: 80px;
         color: #000;
 }
 
@@ -115,13 +112,10 @@ p {
     margin: auto;
 }    
 
-#content{
-}
-
 #headings {
     width: 960px;
     height: auto;
-    border: 1px solid #ffffff;
+    border: 0px solid #ffffff;
     background-color: #ffffff;
     margin: auto;
 
@@ -149,29 +143,29 @@ p {
 
 #name1{
     border: 1px solid #666666;
-    width: 80%;
+    width: 878px;
     height: auto;
     margin: 30px;
     text-align: left;
-    padding: 1%;
+    padding: 10px;
 }
 
 #email {
     border: 1px solid #666666;
-    width: 80%;
+    width: 878px;
     height: auto;
     margin: 30px;
     text-align: left;
-    padding: 1%;
+    padding: 10px;
 }
 
 #message {
     border: 1px solid #666666;
-    width: 80%;
+    width: 878px;
     height: 200px;
     overflow: auto;
     margin: 30px;
-    padding: 1%;
+    padding: 10px;
     
     
 }
